@@ -1,0 +1,87 @@
+body {
+    background-color: #003f88;
+    color: white; 
+}
+
+
+h1, h2 {
+    color: #ffd500; 
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.features-container {
+    display: block; 
+    width: 80%; 
+    margin: 2% auto; 
+    padding: 5px; 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    text-align: center; 
+}
+
+/* Left - Numerical Features */
+.numerical {
+    display: inline-block; 
+    width: 40%; 
+    vertical-align: top; 
+    text-align: left; 
+    padding: 10px; 
+}
+
+/* Right - Categorical Features */
+.categorical {
+    display: inline-block; 
+    width: 40%; 
+    vertical-align: top; 
+    text-align: left; 
+    padding: 10px; 
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    color: white; 
+}
+
+/* Input and Select Fields */
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black; 
+}
+
+/* Submit Button */
+.submit-button {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 10px; 
+}
+
+.submit-button button {
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.submit-button button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Copyright Section */
+.copyright {
+    font-size: 14px;
+    color: #888;
+    text-align: center; 
+}
